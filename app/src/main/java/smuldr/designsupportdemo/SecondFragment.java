@@ -9,9 +9,10 @@ import android.view.ViewGroup;
 
 public class SecondFragment extends Fragment {
 
-    @Nullable
-    @Override
-    public View onCreateView(LayoutInflater inflater, ViewGroup container, Bundle savedInstanceState) {
-        return inflater.inflate(R.layout.fragment_2, container, false);
-    }
+  @Nullable
+  @Override
+  public View onCreateView(LayoutInflater inflater, ViewGroup container,
+                           Bundle savedInstanceState) {
+    return inflater.inflate(R.layout.fragment_2, container, false);
+  }
 }

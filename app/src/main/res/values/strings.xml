@@ -1,10 +1,10 @@
 <resources>
 
-    <string name="app_name">NavigationView Demo</string>
-    <string name="item_1">First Item</string>
-    <string name="item_2">Second Item</string>
-    <string name="cd_logo">logo</string>
-    <string name="open">open navigation drawer</string>
-    <string name="close">close navigation drawer</string>
+  <string name="app_name">NavigationView Demo</string>
+  <string name="item_1">First Item</string>
+  <string name="item_2">Second Item</string>
+  <string name="cd_logo">logo</string>
+  <string name="open">open navigation drawer</string>
+  <string name="close">close navigation drawer</string>
 
 </resources>
