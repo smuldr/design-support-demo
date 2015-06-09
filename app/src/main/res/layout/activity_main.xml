@@ -7,16 +7,16 @@
   android:fitsSystemWindows="true">
 
   <!-- The main content view -->
-  <RelativeLayout
+  <LinearLayout
     android:layout_width="match_parent"
-    android:layout_height="match_parent">
+    android:layout_height="match_parent"
+    android:orientation="vertical">
 
     <!-- Toolbar instead of ActionBar so the drawer can slide on top -->
     <android.support.v7.widget.Toolbar
       android:id="@+id/toolbar"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_alignParentTop="true"
+      android:layout_height="@dimen/abc_action_bar_default_height_material"
       android:background="?attr/colorPrimary"
       android:minHeight="?attr/actionBarSize"
       android:theme="@style/AppTheme.Toolbar"
@@ -26,10 +26,9 @@
     <FrameLayout
       android:id="@+id/content"
       android:layout_width="match_parent"
-      android:layout_height="wrap_content"
-      android:layout_alignParentBottom="true"
-      android:layout_below="@+id/toolbar"/>
-  </RelativeLayout>
+      android:layout_height="0dp"
+      android:layout_weight="1"/>
+  </LinearLayout>
 
   <!-- The navigation drawer -->
   <android.support.design.widget.NavigationView
