@@ -18,9 +18,7 @@
       android:layout_width="match_parent"
       android:layout_height="@dimen/abc_action_bar_default_height_material"
       android:background="?attr/colorPrimary"
-      android:minHeight="?attr/actionBarSize"
-      android:theme="@style/AppTheme.Toolbar"
-      app:titleTextAppearance="@style/AppTheme.Toolbar.Title"/>
+      android:theme="@style/ThemeOverlay.AppCompat.Dark.ActionBar"/>
 
     <!-- Real content goes here -->
     <FrameLayout
